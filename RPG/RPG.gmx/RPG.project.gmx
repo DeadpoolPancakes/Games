@@ -12,11 +12,17 @@
       <sprite>sprites\Sprplayereast</sprite>
       <sprite>sprites\SprPLayersouth</sprite>
     </sprites>
+    <sprites name="Scenery">
+      <sprite>sprites\SprScebush1</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\ObjPlayer</object>
+    <objects name="Player">
+      <object>objects\ObjPlayer</object>
+    </objects>
+    <object>objects\objscebush1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
