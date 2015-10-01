@@ -22,7 +22,9 @@
     <objects name="Player">
       <object>objects\ObjPlayer</object>
     </objects>
-    <object>objects\objscebush1</object>
+    <objects name="Scenery">
+      <object>objects\objscebush1</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
