@@ -16,9 +16,11 @@
       <sprite>sprites\SprScebush1</sprite>
       <sprite>sprites\Sprscegrass</sprite>
     </sprites>
-    <sprite>sprites\sprbgland</sprite>
     <sprites name="Floor">
       <sprite>sprites\sprflrtiledark</sprite>
+    </sprites>
+    <sprites name="Interactive">
+      <sprite>sprites\SpritmChest</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -37,6 +39,9 @@
     </objects>
     <objects name="Floor">
       <object>objects\Objflrtiledrak</object>
+    </objects>
+    <objects name="interactive">
+      <object>objects\object4</object>
     </objects>
   </objects>
   <rooms name="rooms">
