@@ -43,6 +43,9 @@
     <objects name="interactive">
       <object>objects\object4</object>
     </objects>
+    <objects name="Health">
+      <object>objects\Objhealthbar</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
