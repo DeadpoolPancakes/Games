@@ -4,7 +4,7 @@
   <xorig>16</xorig>
   <yorigin>16</yorigin>
   <colkind>1</colkind>
-  <coltolerance>0</coltolerance>
+  <coltolerance>6</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>0</bbox_left>
