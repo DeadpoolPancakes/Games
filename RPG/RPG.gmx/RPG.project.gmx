@@ -24,6 +24,10 @@
       <sprite>sprites\SpritmChest</sprite>
       <sprite>sprites\SpritmChestOpen</sprite>
     </sprites>
+    <sprites name="Doors">
+      <sprite>sprites\SprDoor1</sprite>
+      <sprite>sprites\SprDoor1open</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -49,9 +53,13 @@
     <objects name="Health">
       <object>objects\Objhealthbar</object>
     </objects>
+    <objects name="Doors">
+      <object>objects\ObjDoor1</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\Start</room>
+    <room>rooms\RoomOne</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
