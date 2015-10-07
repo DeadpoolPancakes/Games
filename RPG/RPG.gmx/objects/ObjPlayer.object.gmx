@@ -29,26 +29,36 @@
 
 if keyboard_check(ord("A"))
    {
-   x -= 5;
+   x -= global.objectspeed;
    sprite_index = Sprplayerwest;
    
    }
 if keyboard_check(ord("D"))
    {
-   x += 5;
+   x += global.objectspeed;
    sprite_index = Sprplayereast;
    }
 if keyboard_check(ord("S"))
    {
-   y += 5;
+   y += global.objectspeed;
    sprite_index = SprPLayersouth;
    }   
 if keyboard_check(ord("W"))
    {
-   y -= 5;
+   y -= global.objectspeed;
    sprite_index = sprPlayernorth;
    }   
    
+//Collision events
+//Slow over grass
+
+  if (position_meeting(x, y, Objscegrass)) {
+  global.objectspeed = 1
+  }
+  else{
+  global.objectspeed = 5
+  }
+
 </string>
           </argument>
         </arguments>
@@ -117,7 +127,7 @@ if keyboard_check(ord("W"))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var objectspeed = 5;
+            <string>var global.objectspeed = 5;
 
 
 </string>
