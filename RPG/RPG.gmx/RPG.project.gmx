@@ -15,6 +15,7 @@
     <sprites name="Scenery">
       <sprite>sprites\SprScebush1</sprite>
       <sprite>sprites\Sprscegrass</sprite>
+      <sprite>sprites\Sprscescorpion</sprite>
     </sprites>
     <sprites name="Floor">
       <sprite>sprites\sprflrtiledark</sprite>
@@ -36,6 +37,7 @@
     <objects name="Scenery">
       <object>objects\objscebush1</object>
       <object>objects\Objscegrass</object>
+      <object>objects\object6</object>
     </objects>
     <objects name="Floor">
       <object>objects\Objflrtiledrak</object>
