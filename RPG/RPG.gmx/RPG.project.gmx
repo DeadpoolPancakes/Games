@@ -22,6 +22,7 @@
     </sprites>
     <sprites name="Interactive">
       <sprite>sprites\SpritmChest</sprite>
+      <sprite>sprites\SpritmChestOpen</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
